@@ -1,20 +1,20 @@
-# Analayis of the deforestation im pact of new mines in Zambia
+# Analayis of the deforestation impact of new mines in Zambia
 
-Code to acompany paper 'Quasi-experimental analysis indicates new mining developments have not increased deforestation in Zambia' (In Review)
+Code to accompany paper 'Quasi-experimental analysis indicates new mining developments have not increased deforestation in Zambia' (In Review)
 
-Scripts are in jupyter notebooks running on a R kernal (R version 4.0.5)
+Scripts are in jupyter notebooks (in the folder 'code') running on a R kernel (R version 4.0.5)
+
+The 'confounders' notebook compiles datasets from Google Earth Engine and other sources, including forest loss data. 
 
 Link to GEE script for colalting counfoudners https://code.earthengine.google.com/6397f9c7b5c1d30842425eb998aac3d4 
 
 Link to GEE script for forest loss data https://code.earthengine.google.com/b5d989da4e01858ec92d9101f4a0e8c6 
 
-The Confounders notebook compiles datasets from Google Earth Egnine with confoudners and forest loss varables and clacuates other confoudners. 
+The mine_datasets notebook assigns treatment and control value to pixels and uses the confounders dataset to create an unmatched dataset for each mine. 
 
-The mine_datasets notebook assigns treatment and control value to pixels and uses the counders dataset to create an unmatched dataset for each mine. 
+The matching notebook applies statistical matching to create matched dataset for each mine., including the PSM data used as the main analysis and three other datasets used to test the effect of matching set up on results. 
 
-The matching notebook applies stasticla amthcing to create matched dataset for each mine., including the PSM data used as the main analysis and three other datasets used to test the effect of matching set up on reuslts. 
-
-The outcome_analysis notebook applies ststical models for each mine to esiamte the avergage treatment effect using R-INLA. 
+The outcome_analysis notebook applies statistical models for each mine to estimate the average treatment effect using R-INLA.
 
 ```
 # Package versions used
