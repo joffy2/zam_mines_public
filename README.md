@@ -11,9 +11,9 @@ Scripts are in jupyter notebooks (in the 'code' folder) running on a R kernel (R
   * The 'matching' notebook applies statistical matching to create matched dataset for each mine. 
   * The 'outcome_analysis' notebook applies statistical models for each mine to estimate the average treatment effect using R-INLA.
 
-The 'mines_active_from' csv file detils the active from year attrubtied to all issued large scale mining leases (at Feburary 2020). 
+The 'mines_active_from' csv file details the active from year attributed to all issued large scale mining leases (at February 2020). 
 
-Links to data sources are in the 'data_source' file
+Links to data sources are in the 'data_source' file  
 
 ```
 # Package versions used
