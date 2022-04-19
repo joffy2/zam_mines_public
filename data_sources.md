@@ -7,7 +7,7 @@
 |Population |Worldpop yearly population datasets adjusted for UN country totals | https://www.worldpop.org/doi/10.5258/SOTON/WP00675 |
 |Previous burning |Estimated from MCD64A1.006 MODIS Burned Area Monthly Global.| https://lpdaac.usgs.gov/products/mcd64a1v006 |
 |Protected areas |Data taken from the World Database on Protected Areas, accessed February 2020. | https://www.protectedplanet.net/en |
-|agroecological zone |Data taken from CELL5M: A Multidisciplinary Geospatial Database for Africa South of the Sahara. | https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/G4TBLF |
+|Agroecological zone |Data taken from CELL5M: A Multidisciplinary Geospatial Database for Africa South of the Sahara. | https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/G4TBLF |
 |Zambian provinces |Country and province outlines from GADM database v3.4 | https://gadm.org/data.html | 
 
 
