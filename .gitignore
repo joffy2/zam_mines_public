@@ -20,6 +20,8 @@
 # RStudio files
 .Rproj.user/
 .Rproj
+/*.Rproj
+
 
 # produced vignettes
 vignettes/*.html
@@ -41,3 +43,4 @@ vignettes/*.pdf
 
 # jupytr notebook checkpoints files
 .ipynb_checkpoints
+/*.ipynb_checkpoints
