@@ -4,21 +4,21 @@ Code to accompany paper 'Quasi-experimental analysis indicates new mining develo
 
 Scripts are in jupyter notebooks (in the 'code' folder) running on a R kernel (R version 4.0.5)
 
-The 'confounders' notebook compiles datasets from Google Earth Engine and other sources, including forest loss data. 
+ *The 'confounders' notebook compiles datasets from Google Earth Engine and other sources, including forest loss data. 
 
-Link to GEE script for confounders https://code.earthengine.google.com/6397f9c7b5c1d30842425eb998aac3d4 
+*Link to GEE script for confounders https://code.earthengine.google.com/6397f9c7b5c1d30842425eb998aac3d4 
 
-Link to GEE script for forest loss data https://code.earthengine.google.com/b5d989da4e01858ec92d9101f4a0e8c6 
+*Link to GEE script for forest loss data https://code.earthengine.google.com/b5d989da4e01858ec92d9101f4a0e8c6 
 
-The 'mine_datasets' notebook assigns treatment and control value to pixels and uses the confounders dataset to create an unmatched dataset for each mine. 
+*The 'mine_datasets' notebook assigns treatment and control value to pixels and uses the confounders dataset to create an unmatched dataset for each mine. 
 
-The 'matching' notebook applies statistical matching to create matched dataset for each mine, including the PSM data used as the main analysis and three other datasets used to test the effect of matching set up on results. 
+*The 'matching' notebook applies statistical matching to create matched dataset for each mine. 
 
-The 'outcome_analysis' notebook applies statistical models for each mine to estimate the average treatment effect using R-INLA.
+*The 'outcome_analysis' notebook applies statistical models for each mine to estimate the average treatment effect using R-INLA.
 
 The 'mines_active_from' csv file detils the active from year attrubtied to all issued large scale mining leases (at Feburary 2020). 
 
-Links to data sources are in 
+Links to data sources are in the 'data_source' file
 
 ```
 # Package versions used
