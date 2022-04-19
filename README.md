@@ -16,7 +16,7 @@ Google Earth Engine scripts
 
 The 'mines_active_from' csv file details the active from year attributed to all issued large scale mining leases (at February 2020). 
 
-Links to data sources are in the 'data_source' file  
+Links to data sources are in the 'data_sources.md' file  
 
 ```
 # Package versions used
