@@ -6,7 +6,7 @@ Scripts are in jupyter notebooks (in the 'code' folder) running on a R kernel (R
 
 The 'confounders' notebook compiles datasets from Google Earth Engine and other sources, including forest loss data. 
 
-Link to GEE script for colalting counfoudners https://code.earthengine.google.com/6397f9c7b5c1d30842425eb998aac3d4 
+Link to GEE script for confounders https://code.earthengine.google.com/6397f9c7b5c1d30842425eb998aac3d4 
 
 Link to GEE script for forest loss data https://code.earthengine.google.com/b5d989da4e01858ec92d9101f4a0e8c6 
 
