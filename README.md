@@ -11,8 +11,8 @@ Scripts are in jupyter notebooks (in the 'code' folder) running on a R kernel (R
 
 Google Earth Engine scripts
 
-- Link to GEE script for confounders https://code.earthengine.google.com/6397f9c7b5c1d30842425eb998aac3d4 
-- Link to GEE script for forest loss data https://code.earthengine.google.com/b5d989da4e01858ec92d9101f4a0e8c6 
+- Link to GEE script for confounders https://code.earthengine.google.com/b3b44530ead94da990f9d9796e20199c
+- Link to GEE script for forest loss data https://code.earthengine.google.com/e1eb59baefbc5989ff6e42a0f4077c19
 
 The 'mines_active_from' csv file details the active from year attributed to all issued large scale mining leases (at February 2020). 
 
