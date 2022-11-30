@@ -1,6 +1,8 @@
 # Analayis of the deforestation impact of new mines in Zambia
 
-Code to accompany paper 'Quasi-experimental analysis indicates new mining developments have not increased deforestation in Zambia' (In Review)
+Code to accompany paper 'Quasi-experimental analysis indicates new mining developments have not increased deforestation in Zambia'
+
+Morley, J., Buchanan, G., Mitchard, E.T.A. et al. Quasi-experimental analysis of new mining developments as a driver of deforestation in Zambia. Sci Rep 12, 18252 (2022). [https://doi.org/10.1038/s41598-022-22762-4](https://doi.org/10.1038/s41598-022-22762-4) 
 
 Scripts are in jupyter notebooks (in the 'code' folder) running on a R kernel (R version 4.0.5)
 
